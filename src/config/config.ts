@@ -1,0 +1,6 @@
+import dotenv from "dotenv"
+dotenv.config();
+
+export const config = {
+    connection_string : process.env.CONNECTION_STRING,
+}
